@@ -1,0 +1,46 @@
+
+.pads{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 40vh;
+}
+#drum-machine{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20vh; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 2px grey;
+    background-image: linear-gradient(45deg,gray,white);
+}
+.drum-pad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: brown;
+    margin: 3px;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5px;
+    
+}
+.drum-pad:hover{
+    background-color: #965959;
+}
+.drum-pad:focus{
+    outline: none;
+}
+#display{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    background-color: cadetblue;
+    font-weight: 900;
+    font-size: 30px;
+}
